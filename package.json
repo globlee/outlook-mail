@@ -1,0 +1,27 @@
+{
+  "name": "outlook-mail",
+  "version": "1.0.0",
+  "description": "Send outgoing mail with the outlook.com developer preview API.",
+  "main": "outlook_mail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globlee/outlook-mail.git"
+  },
+  "keywords": [
+    "outlook",
+    "mail",
+    "email",
+    "send",
+    "outlook.com",
+    "api"
+  ],
+  "author": "Meir Bank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/globlee/outlook-mail/issues"
+  },
+  "homepage": "https://github.com/globlee/outlook-mail#readme"
+}
