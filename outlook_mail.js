@@ -31,18 +31,7 @@ module.exports=function(mysubject, message, sendto,  token, callback){
 		if (err){
 			return callback(err)
 		} else {
-
-			try{
-				body = JSON.parse(body);
-				if (body.error){
-					return callback(body.error)
-				} else {
-					return callback(null)
-				}
-			} catch (ex){
-				console.log(ex)
-				return callback(ex)
-			}
+			return callback(null)
 		}
 	});
 

@@ -1,6 +1,6 @@
 {
   "name": "outlook-mail",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Send outgoing mail with the outlook.com developer preview API.",
   "main": "outlook_mail.js",
   "scripts": {
