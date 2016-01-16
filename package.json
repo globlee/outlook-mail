@@ -1,6 +1,6 @@
 {
   "name": "outlook-mail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send outgoing mail with the outlook.com developer preview API.",
   "main": "outlook_mail.js",
   "scripts": {
@@ -18,6 +18,10 @@
     "outlook.com",
     "api"
   ],
+  "dependencies": {
+    "request":"~2.67.0"
+  },
+
   "author": "Meir Bank",
   "license": "MIT",
   "bugs": {
